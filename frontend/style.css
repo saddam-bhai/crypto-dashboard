@@ -1,0 +1,69 @@
+/* navbar starts */
+.sidebar {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("./img/img-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* @// Medium devices (tablets, 768px and up) */
+  @media (max-width: 768px) {
+    .sidebar {
+      position: static;
+      height: auto;
+    }
+    .top-navbar {
+      position: static;
+    }
+  }
+  /* navbar ends */
+
+  /* ...  */
+  
+  .dropdownmenu ul, .dropdownmenu li {
+    margin: 0;
+    padding: 0;
+  }
+  .dropdownmenu ul {
+    background: gray;
+    list-style: none;
+    width: 100%;
+  }
+  
+  .dropdownmenu a {
+       display: block;
+    padding: 10px 25px;
+    text-decoration: none;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+  }
+  
+  #submenu {
+    left: 135px;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+  }
+  li:hover ul#submenu {
+    opacity: 1;
+    top: 390px;  /* adjust this as per top nav padding top & bottom comes */
+    visibility: visible;
+  }
+  #submenu li {
+    float: none;
+    width: 100%;
+  }
+  #submenu a:hover {
+    background: rgba(77, 74, 74, 0.637);
+  }
+  #submenu a {
+    background-color:#000000;
+  }
+
+    /* ...  */
