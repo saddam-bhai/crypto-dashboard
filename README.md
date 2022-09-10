@@ -10,7 +10,7 @@ Also added a contact_us page on sidebar where you can add your details.
 
 ## Demo
 
-Just click the link --> 
+Just click the link --> https://crypto-dashboard0.herokuapp.com
 
 
 ## Run Locally
@@ -18,7 +18,7 @@ Just click the link -->
 Clone the project, (Make sure you install NodeJs).
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/saddam-bhai/crypto-dashboard.git
 ```
 
 Install dependencies
